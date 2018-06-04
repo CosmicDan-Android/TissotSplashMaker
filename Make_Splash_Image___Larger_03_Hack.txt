@@ -1,0 +1,3 @@
+This hack will let you use a larger 03.png but will break the 04 png (System Destroyed) splash. Be sure to use a much smaller 04.png though, otherwise build will fail.
+
+The folder "input___larger-03-hack_example" is a working example of PNG's for this.
