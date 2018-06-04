@@ -121,7 +121,7 @@ For $iIndex = 0 To UBound($aInFiles) - 1
 	FileMove($sTempDir & $sFileName & $sExtension, $sTempDir & "input.png")
 	; Convert to RLE
 	LogEcho("[#] Converting file " & $iCount & " of " & UBound($aInFiles) &"...")
-	RunWait(@ComSpec & " /c " & $sBinDir & "Python2.7\python2.7.exe " & $sBinDir & "code.py >> " & $sLogPath & " 2>&1", $sTempDir, @SW_HIDE)
+	RunWait(@ComSpec & ' /c ""' & $sBinDir & 'Python2.7\python2.7.exe" "' & $sBinDir & 'code.py" >> "' & $sLogPath & '" 2>&1"', $sTempDir, @SW_HIDE)
 	If Not FileExists($sTempDir & "output.rle") Then
 		LogEcho("[!] Error creating RLE file!")
 		ExitWait()
