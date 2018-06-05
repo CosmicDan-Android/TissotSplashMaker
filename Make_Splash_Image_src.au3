@@ -1,6 +1,7 @@
 #NoTrayIcon
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Outfile_x64=Make_Splash_Image.exe
+#AutoIt3Wrapper_Outfile=Make_Splash_Image.exe
+#AutoIt3Wrapper_UseX64=n
 #AutoIt3Wrapper_Change2CUI=y
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 #cs ----------------------------------------------------------------------------
